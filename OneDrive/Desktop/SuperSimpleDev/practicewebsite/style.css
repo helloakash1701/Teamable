@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: coral;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header h1{
+    padding: 20px;
+}
+
+#main-header .navbar{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    float: left;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+/* #showcase{
+    float: right;
+    margin-right: 50px;
+    width: 800px;
+    min-height: 500px;
+    background-image: url(/practicewebsite/image1.jpg);
+    color:white;
+    text-align: center;
+    background-color: coral;
+}
+ */
+ #showcase {
+    float: right;
+    margin-right: 50px;
+    width: 800px;
+    min-height: 500px;
+
+    background-image: url(/practicewebsite/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    position: relative;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+  
+  
+.content h1 {
+font-size: 100px;
+color: rgb(255, 255, 255);
+position: absolute;
+top: 300px;
+left: 180px;
+  }
+
+.content p {
+font-size: 15px;
+color: white;
+position: absolute;
+top: 410px;
+left: 190px;
+
+  }
+  
