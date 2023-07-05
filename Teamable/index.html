@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamable</title>
+    <script src="/Teamable/app.js">
+    </script>
+</head>
+<link rel="stylesheet" href="/Teamable/style.css">
+<body>
+    <div id="box">
+    <div class="container">
+    
+    <h1 id="username">User Profile</h1>
+    <img src="/Teamable/assets/image.jpg" alt="user_image">
+    <div class="boxes">
+    <span>Name:</span><span id="nameu"><b>Anna Smith</b></span>
+    <hr>
+    </div>
+    <div  class="boxes">
+    <span>Email:</span><span id="emailu"><b>anna.smith@example.com</b></span>
+    <hr>
+    </div>
+    <div  class="boxes">
+    <span>Interests:</span><span id="interestu"><b>coding</b></span>
+    <hr>
+    </div>
+    <button id="myButton"  class="buttond" onclick="editProfile()" >Edit Profile</button>
+    
+</div>
+</div>
+
+
+    <div id="box1">
+    <div class="container">
+    
+    <h1>User Profile</h1>
+    <img src="/Teamable/assets/image.jpg" alt="user_image">
+    <div class="boxes">
+    <span>Name:</span><input id="name" type="text" placeholder="Anna Smith">
+    <hr>
+    </div>
+    <div  class="boxes">
+    <span>Email:</span><input id="email"  type="text" placeholder="anna.smith@example.com">
+    <hr>
+    </div>
+    <div  class="boxes">
+    <span>Interests:</span><input id="interest" type="text" placeholder="coding">
+    <hr>
+    </div>
+    <button id="myButton"  class="buttond" onclick="saveProfile()" >Save Profile</button>
+    
+</div>
+</div>
+
+
+    
+</body>
+</html>
